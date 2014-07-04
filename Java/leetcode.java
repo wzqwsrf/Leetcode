@@ -265,3 +265,64 @@ public class Solution {
 		return array;
 	}
 }
+
+//Pascal's Triangle 364ms
+/*
+ * @author:wangzq
+ * @email:wangzhenqing1008@163.com
+ * @date:2014年07月04日18:57:25
+ * @url:https://oj.leetcode.com/problems/pascals-triangle/
+ * 1、numRows表示有几行，注意列表从0开始。
+ * 2、每一行的列表是这样构成的，开头和结尾都是1，中间是前一个列表相邻两个数之和。
+ * 具体参考http://blog.csdn.net/u013027996/article/details/36899443
+ */
+public class Solution {
+    public ArrayList<ArrayList<Integer>> generate(int numRows) {
+        ArrayList<ArrayList<Integer>> list = new ArrayList<ArrayList<Integer>>();
+        if(numRows <= 0){
+            return list;
+        }
+        ArrayList<Integer> firstList = new ArrayList<Integer>();
+        firstList.add(1);
+        list.add(firstList);
+        for(int i = 1; i < numRows; i++){
+            ArrayList<Integer> secList = new ArrayList<Integer>();
+            ArrayList<Integer> tempList = list.get(i-1);
+            int size = tempList.size();
+            secList.add(1);
+            for(int j = 1; j < size; j++){
+                secList.add(tempList.get(j-1) + tempList.get(j));
+            }
+            secList.add(1);
+            list.add(secList);
+        }
+        return list;
+    }
+}
+
+//Pascal's Triangle 392ms
+/*
+ * @author:wangzq
+ * @email:wangzhenqing1008@163.com
+ * @date:2014年07月04日18:59:41
+ * @url:https://oj.leetcode.com/problems/pascals-triangle-ii/
+ * 1、参照Pascal's Triangle，算出所有的list，直接get(rowIndex)
+ * 2、如果是空间限制，只能声明k长度的list，依次计算。
+ * 具体参考http://blog.csdn.net/u013027996/article/details/36905037
+ */
+ public class Solution {
+    public List<Integer> getRow(int rowIndex) {
+		List<Integer> list = new ArrayList<Integer>();
+		list.add(1);
+		for (int i = 1; i < rowIndex + 1; i++) {
+			int curNum = 1;
+			for (int j = 1; j < i; j++) {
+				int temp = curNum;
+				curNum = list.get(j);
+				list.set(j, curNum + temp);
+			}
+			list.add(1);
+		}
+		return list;
+	}
+}
