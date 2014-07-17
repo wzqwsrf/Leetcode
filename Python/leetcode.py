@@ -1,3 +1,4 @@
+#======================================
 # Add Binary
 '''
 /*
@@ -51,6 +52,9 @@ class Solution:
         else:
             return "".join(list)
 
+
+
+#======================================
 # Two Sum 172ms
 '''
 /*
@@ -79,6 +83,9 @@ class Solution:
                 numMap[num[i]] = i
         return array
 
+
+
+#======================================
 # Spiral Matrix 76ms
 '''
 /*
@@ -121,6 +128,9 @@ class Solution:
             endy -= 1
         return list
 
+
+
+#======================================
 # Spiral Matrix II 208ms
 '''
 /*
@@ -164,6 +174,9 @@ class Solution:
             endy -= 1
         return matrix
 
+
+
+#======================================
 # Multiply Strings 944ms
 '''
 /*
@@ -218,6 +231,9 @@ class Solution:
                 list[i-1] += 1
         return list
 
+
+
+#======================================
 # Pascal's Triangle 120ms
 '''
 /*
@@ -247,6 +263,9 @@ class Solution:
             list.append(rowList)
         return list
 
+
+
+#======================================
 # Pascal's Triangle 152ms
 '''
 /*
@@ -272,6 +291,9 @@ class Solution:
             list.append(1)
         return list
 
+
+
+#======================================
 # Validate Binary Search Tree 308ms
 '''
 /*
@@ -307,6 +329,9 @@ class Solution:
             return False
         return self.dfs(root.left, min_val, root.val) and self.dfs(root.right, root.val, max_val)
 
+
+
+#======================================
 # Merge Two Sorted Lists 240ms
 '''
 /*
@@ -346,6 +371,8 @@ class Solution:
         return node.next
 
 
+
+#======================================
 # Merge k Sorted Lists 1116ms
 '''
 /*
@@ -400,3 +427,94 @@ class Solution:
         return node.next
 
 
+
+#======================================
+#Add Two Numbers 568ms
+'''
+/*
+ * @author:wangzq
+ * @email:wangzhenqing1008@163.com
+ * @date:2014年07月17日16:05:11
+ * @url:https://oj.leetcode.com/problems/add-two-numbers/
+ * 大数相加，按位求和，注意进位问题
+ * 具体参考http://blog.csdn.net/u013027996/article/details/37908619
+ */
+ '''
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    # @return a ListNode
+    def addTwoNumbers(self, l1, l2):
+        if l1 is None and l2 is None:
+            return None
+        node = ListNode(0)
+        point = node
+        carry = 0
+
+        while l1 is not None and l2 is not None:
+            val = l1.val + l2.val
+            val += carry
+            carry = 0
+            if val >= 10:
+                temp = val
+                val %= 10
+                carry += temp / 10
+            point.next = ListNode(val)
+            point = point.next
+            l1 = l1.next
+            l2 = l2.next
+
+        while l1 is not None:
+            val = l1.val + carry
+            carry = 0
+            if val >= 10:
+                temp = val
+                val %= 10
+                carry += temp / 10
+            point.next = ListNode(val)
+            point = point.next
+            l1 = l1.next
+
+        while l2 is not None:
+            val = l2.val + carry
+            carry = 0
+            if val >= 10:
+                temp = val
+                val %= 10
+                carry += temp / 10
+            point.next = ListNode(val)
+            point = point.next
+            l2 = l2.next
+
+        if carry != 0:
+            point.next = ListNode(carry)
+            point = point.next
+        return node.next
+
+
+
+#======================================
+# Single Number 284ms
+'''
+/*
+ * @author:wangzq
+ * @email:wangzhenqing1008@163.com
+ * @date:2014年07月17日16:17:44
+ * @url:https://oj.leetcode.com/problems/single-number/
+ * 整个数组异或，结果就是只出现一次的那个数字
+ * 具体参考http://blog.csdn.net/u013027996/article/details/17642559
+ */
+'''
+class Solution:
+    # @param A, a list of integer
+    # @return an integer
+    def singleNumber(self, A):
+        alen = len(A)
+        result = A[0]
+        for i in range(1, alen, 1):
+            result ^= A[i]
+        return result
