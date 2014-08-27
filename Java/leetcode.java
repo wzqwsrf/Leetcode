@@ -640,33 +640,98 @@ public class Solution {
 
 
 //======================================
-// Maximum Subarray 408ms
+//Maximum Subarray 408ms
 /*
- * @author:wangzq
- * @email:wangzhenqing1008@163.com
- * @date:2014年08月08日19:00:34
- * @url:https://oj.leetcode.com/problems/maximum-subarray/
- * 最大连续子数组和，非常经典
- * 具体参考http://blog.csdn.net/u013027996/article/details/38423167
- */
+* @author:wangzq
+* @email:wangzhenqing1008@163.com
+* @date:2014年08月08日19:00:34
+* @url:https://oj.leetcode.com/problems/maximum-subarray/
+* 最大连续子数组和，非常经典
+* 具体参考http://blog.csdn.net/u013027996/article/details/38423167
+*/
 public class Solution {
-    public int maxSubArray(int[] A) {
-        int len = A.length;
-        if(len == 1){
-            return A[0];
-        }
-        int maxSum = A[0];
-        int tempSum = 0;
-        for(int i = 0; i < len ; i++){
-            if(tempSum < 0){
-                tempSum = A[i];
-            }else if(tempSum >= 0){
-                tempSum += A[i];
-            }
-            if(tempSum > maxSum){
-                maxSum = tempSum;
-            }
-        }
-        return maxSum;
-    }
+ public int maxSubArray(int[] A) {
+     int len = A.length;
+     if(len == 1){
+         return A[0];
+     }
+     int maxSum = A[0];
+     int tempSum = 0;
+     for(int i = 0; i < len ; i++){
+         if(tempSum < 0){
+             tempSum = A[i];
+         }else if(tempSum >= 0){
+             tempSum += A[i];
+         }
+         if(tempSum > maxSum){
+             maxSum = tempSum;
+         }
+     }
+     return maxSum;
+ }
+}
+
+
+
+//======================================
+//Jump Game 408ms
+/*
+* @author:wangzq
+* @email:wangzhenqing1008@163.com
+* @date:2014年08月27日15:11:42
+* @url:https://oj.leetcode.com/problems/jump-game/
+* 题目比较拗口，多读几遍，加强理解，求是否可达
+* 具体参考http://blog.csdn.net/u013027996/article/details/38870915
+*/
+public class Solution {
+  public boolean canJump(int[] A) {
+      int n = A.length;
+      if(n == 0){
+      	return false;
+      }
+      int maxReach = 0;
+      int i = 0;
+      while (i < n && i <= maxReach) {
+			maxReach = Math.max(i + A[i], maxReach);
+			i++;
+			if(maxReach >= n - 1){
+				return true;
+			}
+		}
+      return false;
+  }
+}
+
+
+
+//======================================
+//Jump Game II 460ms
+/*
+* @author:wangzq
+* @email:wangzhenqing1008@163.com
+* @date:2014年08月27日15:13:25
+* @url:https://oj.leetcode.com/problems/jump-game-ii/
+* 题目比较拗口，多读几遍，加强理解，求可达最短步数
+* 具体参考http://blog.csdn.net/u013027996/article/details/38870915
+*/
+public class Solution {
+	public int jump(int[] A) {
+		int n = A.length;
+		if (n == 0) {
+			return 0;
+		}
+		int lastMaxReach = 0;
+		int maxReach = 0;
+		int i = 0;
+		int minStep = 0;
+		while (i < n && i <= maxReach) {
+			if (i > lastMaxReach) {
+				lastMaxReach = maxReach;
+				minStep++;
+			}
+			maxReach = Math.max(i + A[i], maxReach);
+			i++;
+		}
+		return maxReach >= n - 1 ? minStep : 0;
+	}
 }
