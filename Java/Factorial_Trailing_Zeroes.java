@@ -2,6 +2,13 @@
 // Factorial Trailing Zeroes 206ms
 
 /**
+ * Given an integer n, return the number of trailing zeroes in n!.
+ * Note: Your solution should be in logarithmic time complexity.
+ * Credits:
+ * Special thanks to @ts for adding this problem and creating all test cases.
+ */
+
+/**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
  * @date:2015年01月09日15:36:19

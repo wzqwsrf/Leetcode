@@ -2,6 +2,13 @@
 //Remove Element 384ms
 
 /**
+ * Given an array and a value,
+ * remove all instances of that value in place and return the new length.
+ * The order of elements can be changed.
+ * It doesn't matter what you leave beyond the new length.
+ */
+
+/**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
  * @date:2014年10月16日18:15:14

@@ -2,6 +2,12 @@
 //Multiply Strings 476ms
 
 /**
+ * Given two numbers represented as strings,
+ * return multiplication of the numbers as a string.
+ * Note: The numbers can be arbitrarily large and are non-negative.
+ */
+
+/**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
  * @date:2014年07月04日10:26:44

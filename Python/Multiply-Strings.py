@@ -3,6 +3,14 @@
 # Multiply Strings 944ms
 
 """
+/**
+ * Given two numbers represented as strings,
+ * return multiplication of the numbers as a string.
+ * Note: The numbers can be arbitrarily large and are non-negative.
+ */
+"""
+
+"""
 /*
  * @author:wangzq
  * @email:wangzhenqing1008@163.com

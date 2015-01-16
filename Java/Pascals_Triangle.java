@@ -2,6 +2,19 @@
 //Pascal's Triangle 364ms
 
 /**
+ * Given numRows, generate the first numRows of Pascal's triangle.
+ * For example, given numRows = 5,
+ * Return
+ [
+     [1],
+    [1,1],
+   [1,2,1],
+  [1,3,3,1],
+ [1,4,6,4,1]
+ ]
+ */
+
+/**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
  * @date:2014年07月04日18:57:25

@@ -2,6 +2,13 @@
 //Maximum Product Subarray 428ms
 
 /**
+ * Find the contiguous subarray within an array
+ * (containing at least one number) which has the largest product.
+ * For example, given the array [2,3,-2,4],
+ * the contiguous subarray [2,3] has the largest product = 6.
+ */
+
+/**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
  * @date:2014年10月17日11:39:35

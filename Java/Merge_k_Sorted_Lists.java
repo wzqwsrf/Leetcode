@@ -2,6 +2,11 @@
 //Merge k Sorted Lists 516ms
 
 /**
+ * Merge k sorted linked lists and return it as one sorted list.
+ * Analyze and describe its complexity.
+ */
+
+/**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
  * @date:2014年07月16日15:12:03

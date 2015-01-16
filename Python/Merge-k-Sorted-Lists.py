@@ -3,6 +3,14 @@
 # Merge k Sorted Lists 1116ms
 
 """
+/**
+ * Merge k sorted linked lists and return it as one sorted list.
+ * Analyze and describe its complexity.
+ */
+
+"""
+
+"""
 /*
  * @author:wangzq
  * @email:wangzhenqing1008@163.com

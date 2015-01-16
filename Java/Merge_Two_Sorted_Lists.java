@@ -2,6 +2,11 @@
 //Merge Two Sorted Lists 576ms
 
 /**
+ * Merge two sorted linked lists and return it as a new list.
+ * The new list should be made by splicing together the nodes of the first two lists.
+ */
+
+/**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
  * @date:2014年07月15日10:27:52
