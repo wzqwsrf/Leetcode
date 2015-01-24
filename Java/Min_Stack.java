@@ -18,7 +18,7 @@
  * @date:2015年01月23日19:05:58
  * @url:https://oj.leetcode.com/problems/min-stack/
  * 每次把最小数保存在minStack中，pop的时候判断是否和当前栈顶元素相等。
- * 具体参考
+ * 具体参考http://blog.csdn.net/u013027996/article/details/43090751
  */
 
 class MinStack {
