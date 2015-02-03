@@ -35,22 +35,22 @@ class Solution:
     def nextPermutation(self, num):
         nLen = len(num)
         first = -1
-        for i in xrange(nLen-2, -1, -1):
-            if num[i] < num[i+1]:
+        for i in xrange(nLen - 2, -1, -1):
+            if num[i] < num[i + 1]:
                 first = i
                 break
         if first == -1:
             num.sort()
             return num
         else:
-            for i in xrange(nLen-1,-1,-1):
+            for i in xrange(nLen - 1, first, -1):
                 if num[i] > num[first]:
-                    num[i],num[first] = num[first],num[i]
+                    num[i], num[first] = num[first], num[i]
                     break
             low = first + 1
             high = nLen - 1
             while low < high:
-                num[low],num[high] = num[high],num[low]
+                num[low], num[high] = num[high], num[low]
                 low += 1
-                high -=1
+                high -= 1
             return num
