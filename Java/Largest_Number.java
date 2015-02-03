@@ -18,7 +18,7 @@
  * 具体参考：
  */
 
-public class Lagest_Number {
+public class Largest_Number {
     public String largestNumber(int[] num) {
         int len = num.length;
         String array[] = new String[len];

@@ -11,6 +11,8 @@
  * return 10.
  */
 
+import java.util.Stack;
+
 /**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
@@ -20,7 +22,7 @@
  * 具体参考：http://blog.csdn.net/u013027996/article/details/43198421
  */
 
-public class Solution {
+public class Largest_Rectangle_in_Histogram {
     public int largestRectangleArea(int[] height) {
         if(height == null || height.length == 0){
             return 0;
