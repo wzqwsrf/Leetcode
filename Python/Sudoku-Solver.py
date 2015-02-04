@@ -1,6 +1,6 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Sudoku Solver 783ms
+# Sudoku Solver 796ms
 
 """
 /**
@@ -35,7 +35,6 @@ class Solution:
                 if board[i][j] == '.':
                     num.append(i * n + j)
         self.dfs(board, num, len(num), n, 0)
-        print board
 
     def dfs(self, board, num, size, n, cur):
         if cur == size:
@@ -78,4 +77,3 @@ class Solution:
                 if board[i][j] == value:
                     return False
         return True
-
