@@ -31,7 +31,7 @@
 
 
 class Solution:
-    # @return a list of lists of integers
+# @return a list of lists of integers
     def generate(self, numRows):
         list = []
         if numRows <= 0:
