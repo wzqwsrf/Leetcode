@@ -39,11 +39,12 @@
 #         self.val = x
 #         self.next = None
 
+
 class Solution:
     # @param two ListNodes
     # @return the intersected ListNode
     def getIntersectionNode(self, headA, headB):
-        len1 = 0;
+        len1 = 0
         p = headA
         while p:
             p = p.next
