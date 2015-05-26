@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
- * @date:2014年07月02日17:25:17
+ * @date:2015年05月26日10:15:14
  * @url:https://leetcode.com/problems/contains-duplicate/
  * hashmap 统计数字出现的次数，如果大于1就返回true。
  */

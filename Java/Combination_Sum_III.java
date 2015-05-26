@@ -6,7 +6,7 @@ import java.util.*;
 /**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
- * @date:2014年07月02日17:25:17
+ * @date:2015年05月26日10:15:05
  * @url:https://leetcode.com/problems/contains-duplicate/
  * 递归经典案例
  */
