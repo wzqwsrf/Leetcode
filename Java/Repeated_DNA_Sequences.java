@@ -11,23 +11,21 @@ import java.util.*;
  */
 
 public class Repeated_DNA_Sequences {
-    public class Solution {
-        public List<String> findRepeatedDnaSequences(String s) {
-            int len = s.length();
-            List<String> list = new ArrayList<String>();
-            Map<String, Integer> map = new HashMap<String, Integer>();
-            for (int i = 0; i < len - 9; i++) {
-                String tempS = s.substring(i, i + 10);
-                int num = 1;
-                if (map.containsKey(tempS)) {
-                    num += map.get(tempS);
-                }
-                if (num > 1 && !list.contains(tempS)) {
-                    list.add(tempS);
-                }
-                map.put(tempS, num);
+    public List<String> findRepeatedDnaSequences(String s) {
+        int len = s.length();
+        List<String> list = new ArrayList<String>();
+        Map<String, Integer> map = new HashMap<String, Integer>();
+        for (int i = 0; i < len - 9; i++) {
+            String tempS = s.substring(i, i + 10);
+            int num = 1;
+            if (map.containsKey(tempS)) {
+                num += map.get(tempS);
             }
-            return list;
+            if (num > 1 && !list.contains(tempS)) {
+                list.add(tempS);
+            }
+            map.put(tempS, num);
         }
+        return list;
     }
 }
