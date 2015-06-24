@@ -50,7 +50,9 @@ public class Basic_Calculator {
                 result += stack.pop();
             }
         }
-        if (num != 0) result += sign * num;
+        if (num != 0) {
+            result += sign * num;
+        }
         return result;
     }
 }
