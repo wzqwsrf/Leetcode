@@ -1,19 +1,7 @@
 
 // Permutations II
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 /**
- * 题目：
- * Given a collection of numbers that might contain duplicates,
- * return all possible unique permutations.
- * For example,
- * [1,1,2] have the following unique permutations:
- * [1,1,2], [1,2,1], and [2,1,1].
- */
-
-/*
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
  * @date:2015年02月04日11:50:25
@@ -22,8 +10,12 @@ import java.util.Arrays;
  * 具体参考：http://blog.csdn.net/u013027996/article/details/18734103
  */
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 //方法一，下一个全排列，经典算法
-public class Permutations_II {
+public class Solution {
+
     public ArrayList<ArrayList<Integer>> list;
 
     public ArrayList<ArrayList<Integer>> permuteUnique(int[] num) {

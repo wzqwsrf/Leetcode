@@ -1,14 +1,5 @@
 
-// Add Binary 444ms
-
-/**
- * 题目：
- * Given two binary strings, return their sum (also a binary string).
-   For example,
-   a = "11"
-   b = "1"
-   Return "100".
- */
+// Add Binary
 
 /**
  * @author:wangzq
@@ -20,7 +11,7 @@
  * 具体参考：http://blog.csdn.net/u013027996/article/details/36436901
  */
 
-public class Add_Binary {
+public class Solution {
     public String addBinary(String a, String b) {
         if (a == null || b == null) {
             return "";

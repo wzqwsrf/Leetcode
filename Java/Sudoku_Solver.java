@@ -1,14 +1,5 @@
 
-//Sudoku Solver 246ms
-
-/**
- * Write a program to solve a Sudoku puzzle by filling the empty cells.
- * Empty cells are indicated by the character '.'.
- * You may assume that there will be only one unique solution.
- * ...and its solution numbers marked in red.
- */
-
-import java.util.ArrayList;
+// Sudoku Solver
 
 /**
  * @author:wangzq
@@ -19,7 +10,10 @@ import java.util.ArrayList;
  * 具体参考http://blog.csdn.net/u013027996/article/details/43499949
  */
 
-public class Sudoku_Solver {
+import java.util.ArrayList;
+
+public class Solution {
+
     public int n, size;
     public ArrayList<Integer> list;
 

@@ -1,11 +1,5 @@
 
-//Multiply Strings 476ms
-
-/**
- * Given two numbers represented as strings,
- * return multiplication of the numbers as a string.
- * Note: The numbers can be arbitrarily large and are non-negative.
- */
+// Multiply Strings
 
 /**
  * @author:wangzq
@@ -19,7 +13,9 @@
  * 5、比较考验基本功底，建议练习。
  * 具体参考http://blog.csdn.net/u013027996/article/details/36868975
  */
-public class Multiply_Strings {
+
+public class Solution {
+
     public String multiply(String num1, String num2) {
         if ("".equals(num1.replace("0", ""))
                 || "".equals(num2.replace("0", ""))) {

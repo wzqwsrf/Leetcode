@@ -1,5 +1,5 @@
 
-//Reverse Integer 242ms
+// Reverse Integer
 
 /**
  * @author:wangzq
@@ -9,7 +9,9 @@
  * 注意Int最大值
  * 具体参考
  */
-public class Reverse_Integer {
+
+public class Solution {
+
     public static int reverse(int x) {
         int flag = x > 0 ? 1 : -1;
         int num = Math.abs(x);

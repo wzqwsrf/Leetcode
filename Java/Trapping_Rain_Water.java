@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/trapping-rain-water/
  */
 
-public class Trapping_Rain_Water {
+public class Solution {
+
     public int trap(int[] A) {
         int len = A.length;
         int max = 0;

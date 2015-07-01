@@ -1,7 +1,5 @@
 
-// Combination Sum III 236ms
-
-import java.util.*;
+// Combination Sum III
 
 /**
  * @author:wangzq
@@ -11,7 +9,10 @@ import java.util.*;
  * 递归经典案例
  */
 
-public class Combination_Sum_III {
+import java.util.*;
+
+public class Solution {
+
     public List<List<Integer>> combinationSum3(int k, int n) {
         List<List<Integer>> list = new ArrayList<List<Integer>>();
         List<Integer> numList = new ArrayList<Integer>();

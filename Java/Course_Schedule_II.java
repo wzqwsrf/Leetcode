@@ -1,9 +1,5 @@
 
-//Course Schedule II
-
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
+// Course Schedule II
 
 /**
  * @author:wangzq
@@ -12,7 +8,11 @@ import java.util.Queue;
  * @url:https://leetcode.com/problems/course-schedule-ii/
  */
 
-public class Course_Schedule_II {
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         int array[] = new int[numCourses];
         ArrayList<Integer>[] list = new ArrayList[numCourses];

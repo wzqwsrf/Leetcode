@@ -1,5 +1,5 @@
 
-//Shortest Palindrome
+// Shortest Palindrome
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/shortest-palindrome/
  */
 
-public class Shortest_Palindrome {
+public class Solution {
+
     public String shortestPalindrome(String s) {
         if (s == null || s.length() < 2) {
             return s;

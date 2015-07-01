@@ -1,13 +1,5 @@
 
-// Single Number 352ms
-
-/**
- * Given an array of integers,
- * every element appears twice except for one. Find that single one.
- * Note:
- * Your algorithm should have a linear runtime complexity.
- * Could you implement it without using extra memory?
- */
+// Single Number
 
 /**
  * @author:wangzq
@@ -18,7 +10,8 @@
  * 具体参考http://blog.csdn.net/u013027996/article/details/17642559
  */
 
-public class Single_Number {
+public class Solution {
+
     public int singleNumber(int[] A) {
         if (A == null || A.length == 0) {
             return 0;

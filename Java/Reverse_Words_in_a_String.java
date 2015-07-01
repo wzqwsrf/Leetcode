@@ -1,5 +1,5 @@
 
-//Reverse Words in a String
+// Reverse Words in a String
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/reverse-words-in-a-string/
  */
 
-public class Reverse_Words_in_a_String {
+public class Solution {
+
     public String reverseWords(String s) {
         s = s.trim().replaceAll("[ ]+", " ");
         String sArr[] = s.split(java.util.regex.Pattern.quote(" "));

@@ -1,8 +1,5 @@
 
-//Linked List Cycle
-
-import java.util.ArrayList;
-import java.util.Stack;
+// Linked List Cycle
 
 /**
  * @author:wangzq
@@ -11,7 +8,11 @@ import java.util.Stack;
  * @url:https://leetcode.com/problems/linked-list-cycle/
  */
 
-public class Linked_List_Cycle {
+import java.util.ArrayList;
+import java.util.Stack;
+
+public class Solution {
+
     public boolean hasCycle(ListNode head) {
         if(head == null){
             return false;

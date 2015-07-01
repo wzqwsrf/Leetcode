@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/implement-strstr/
  */
 
-public class Implement_strStr {
+public class Solution {
+
     public int strStr(String haystack, String needle) {
         if ("".equals(haystack) && "".equals(needle)) {
             return 0;

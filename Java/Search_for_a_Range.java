@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/search-for-a-range/
  */
 
-public class Search_for_a_Range {
+public class Solution {
+
     public int[] searchRange(int[] A, int target) {
         int len = A.length;
         if (target < A[0] && target > A[len - 1]) {

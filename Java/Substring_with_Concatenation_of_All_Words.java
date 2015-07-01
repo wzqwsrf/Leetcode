@@ -1,10 +1,6 @@
 
 // Substring with Concatenation of All Words
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
@@ -12,7 +8,12 @@ import java.util.Map;
  * @url:https://leetcode.com/problems/substring-with-concatenation-of-all-words/
  */
 
-public class Substring_with_Concatenation_of_All_Words {
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+public class Solution {
+
     public ArrayList<Integer> findSubstring(String S, String[] L) {
         ArrayList<Integer> list = new ArrayList<Integer>();
         int len = L.length;

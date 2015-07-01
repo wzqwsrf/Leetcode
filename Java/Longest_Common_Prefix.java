@@ -1,5 +1,5 @@
 
-// Longest Common Prefix 324ms
+// Longest Common Prefix
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/longest-common-prefix/
  */
 
-public class Longest_Common_Prefix {
+public class Solution {
+
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {
             return "";

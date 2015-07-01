@@ -1,11 +1,6 @@
 
 // Anagrams
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
@@ -13,7 +8,13 @@ import java.util.Map;
  * @url:https://leetcode.com/problems/anagrams/
  */
 
-public class Anagrams {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
+public class Solution {
+
     public ArrayList<String> anagrams(String[] strs) {
         ArrayList<String> list = new ArrayList<String>();
         int len = strs.length;

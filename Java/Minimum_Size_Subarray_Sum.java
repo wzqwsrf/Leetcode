@@ -1,5 +1,5 @@
 
-//Minimum Size Subarray Sum
+// Minimum Size Subarray Sum
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/minimum-size-subarray-sum/
  */
 
-public class Minimum_Size_Subarray_Sum {
+public class Solution {
+
     public int minSubArrayLen(int s, int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;

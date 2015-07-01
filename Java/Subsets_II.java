@@ -1,8 +1,5 @@
 
-//Subsets II
-
-import java.util.ArrayList;
-import java.util.Arrays;
+// Subsets II
 
 /**
  * @author:wangzq
@@ -11,7 +8,10 @@ import java.util.Arrays;
  * @url:https://leetcode.com/problems/subsets-ii/
  */
 
-public class Subsets_II {
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Solution {
 
     public int len;
 

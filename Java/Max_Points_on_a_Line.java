@@ -1,8 +1,5 @@
 
-//Max Points on a Line
-
-import java.util.HashMap;
-import java.util.Map;
+// Max Points on a Line
 
 /**
  * @author:wangzq
@@ -11,7 +8,11 @@ import java.util.Map;
  * @url:https://leetcode.com/problems/max-points-on-a-line/
  */
 
-public class Max_Points_on_a_Line {
+import java.util.HashMap;
+import java.util.Map;
+
+public class Solution {
+
     public int maxPoints(Point[] points) {
         if (points == null || points.length == 0) {
             return 0;

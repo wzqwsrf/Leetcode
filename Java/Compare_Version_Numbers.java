@@ -1,5 +1,5 @@
 
-//Compare Version Numbers
+// Compare Version Numbers
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/compare-version-numbers/
  */
 
-public class Compare_Version_Numbers {
+public class Solution {
+
     public int compareVersion(String version1, String version2) {
         String vMsg1[] = version1.split("\\.");
         String vMsg2[] = version2.split("\\.");

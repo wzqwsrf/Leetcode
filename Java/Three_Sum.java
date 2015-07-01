@@ -1,9 +1,6 @@
 
 // 3Sum
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 /**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
@@ -11,7 +8,11 @@ import java.util.Arrays;
  * @url:https://leetcode.com/problems/3sum/
  */
 
-public class Three_Sum {
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Solution {
+
     public ArrayList<ArrayList<Integer>> threeSum(int[] num) {
         ArrayList<ArrayList<Integer>> list =
                 new ArrayList<ArrayList<Integer>>();

@@ -1,5 +1,5 @@
 
-// Median of Two Sorted Arrays 399ms
+// Median of Two Sorted Arrays
 
 /**
  * @author:wangzq
@@ -9,7 +9,8 @@
  * 中位数经典解法
  */
 
-public class Median_of_Two_Sorted_Arrays {
+public class Solution {
+
     public double findMedianSortedArrays(int A[], int B[]) {
         int m = A.length;
         int n = B.length;

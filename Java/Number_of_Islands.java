@@ -1,8 +1,5 @@
 
-//ZigZag Conversion 404ms
-
-import java.util.LinkedList;
-import java.util.Queue;
+// Number of Islands
 
 /**
  * @author:wangzq
@@ -11,7 +8,10 @@ import java.util.Queue;
  * @url:https://leetcode.com/problems/number-of-islands/
  */
 
-public class Number_of_Islands {
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Solution {
     private int stepArr[][] = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
     private int visit[][];
     private int m, n;

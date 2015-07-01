@@ -1,8 +1,5 @@
 
-//Implement Stack using Queues
-
-import java.util.LinkedList;
-import java.util.Queue;
+// Implement Stack using Queues
 
 /**
  * @author:wangzq
@@ -11,7 +8,10 @@ import java.util.Queue;
  * @url:https://leetcode.com/problems/implement-stack-using-queues/
  */
 
-public class Implement_Stack_using_Queues {
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Solution {
 
     class MyStack {
 

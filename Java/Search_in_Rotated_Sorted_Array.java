@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/search-in-rotated-sorted-array/
  */
 
-public class Search_in_Rotated_Sorted_Array {
+public class Solution {
+
     public int search(int[] A, int target) {
         if (A == null || A.length == 0) {
             return 0;

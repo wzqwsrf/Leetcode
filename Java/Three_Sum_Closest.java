@@ -1,8 +1,6 @@
 
 // 3Sum Closest
 
-import java.util.Arrays;
-
 /**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
@@ -10,7 +8,10 @@ import java.util.Arrays;
  * @url:https://leetcode.com/problems/3sum-closest/
  */
 
-public class Three_Sum_Closest {
+import java.util.Arrays;
+
+public class Solution {
+
     public int closet;
 
     public int threeSumClosest(int[] num, int target) {

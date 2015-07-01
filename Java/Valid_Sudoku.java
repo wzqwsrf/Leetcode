@@ -1,14 +1,5 @@
 
-//Valid Sudoku 311ms
-
-/**
- * Determine if a Sudoku is valid, according to: Sudoku Puzzles - The Rules.
- * The Sudoku board could be partially filled, where empty cells are filled with the character '.'.
- * A partially filled sudoku which is valid.
- * Note:
- * A valid Sudoku board (partially filled) is not necessarily solvable.
- * Only the filled cells need to be validated.
- */
+// Valid Sudoku
 
 /**
  * @author:wangzq
@@ -19,7 +10,8 @@
  * 具体参考http://blog.csdn.net/u013027996/article/details/43489683
  */
 
-public class Valid_Sudoku {
+public class Solution {
+
     public boolean isValidSudoku(char[][] board) {
         int n = board.length;
         for (int i = 0; i < n; i++) {

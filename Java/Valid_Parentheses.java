@@ -1,8 +1,6 @@
 
 // Valid Parentheses
 
-import java.util.Stack;
-
 /**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
@@ -10,7 +8,9 @@ import java.util.Stack;
  * @url:https://leetcode.com/problems/valid-parentheses/
  */
 
-public class Valid_Parentheses {
+import java.util.Stack;
+
+public class Solution {
     public boolean isValid(String s) {
         if (s == null || "".equals(s.trim())) {
             return false;

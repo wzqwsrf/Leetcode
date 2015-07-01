@@ -1,10 +1,5 @@
 
-//Isomorphic Strings
-
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+// Isomorphic Strings
 
 /**
  * @author:wangzq
@@ -13,7 +8,13 @@ import java.util.Set;
  * @url:https://leetcode.com/problems/isomorphic-strings/
  */
 
-public class Isomorphic_Strings {
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+public class Solution {
+
     public boolean isIsomorphic(String s, String t) {
         int len = s.length();
         Map<Character, Character> stMap = new HashMap<Character, Character>();

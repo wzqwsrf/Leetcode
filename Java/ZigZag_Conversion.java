@@ -1,5 +1,5 @@
 
-//ZigZag Conversion 404ms
+// ZigZag Conversion
 
 /**
  * @author:wangzq
@@ -9,7 +9,8 @@
  * 具体参考
  */
 
-public class ZigZag_Conversion {
+public class Solution {
+
     public String convert(String s, int nRows) {
         if (nRows == 1) {
             return s;

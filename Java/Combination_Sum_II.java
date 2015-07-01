@@ -1,10 +1,6 @@
 
 // Combination Sum II
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-
 /**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
@@ -12,7 +8,12 @@ import java.util.Collections;
  * @url:https://leetcode.com/problems/combination-sum-ii/
  */
 
-public class Combination_Sum_II {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+
+public class Solution {
+
     private int len = 0;
 
     public ArrayList<ArrayList<Integer>> combinationSum2(int[] candidates, int target) {

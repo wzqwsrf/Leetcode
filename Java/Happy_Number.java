@@ -1,9 +1,6 @@
 
 // Happy Number
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
@@ -11,7 +8,11 @@ import java.util.List;
  * @url:https://leetcode.com/problems/happy-number/
  */
 
-public class Happy_Number {
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
+
     public boolean isHappy(int n) {
         List<Integer> numList = new ArrayList<Integer>();
         while (n != 1) {

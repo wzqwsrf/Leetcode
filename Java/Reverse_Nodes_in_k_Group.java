@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/reverse-nodes-in-k-group/
  */
 
-public class Reverse_Nodes_in_k_Group {
+public class Solution {
 
     public ListNode curNode;
 

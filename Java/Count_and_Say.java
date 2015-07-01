@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/count-and-say/
  */
 
-public class Count_and_Say {
+public class Solution {
+
     public String countAndSay(int n) {
         String array[] = new String[n];
         array[0] = "1";

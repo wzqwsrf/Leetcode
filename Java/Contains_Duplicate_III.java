@@ -1,10 +1,5 @@
 
-//Contains Duplicate III
-
-import java.util.HashMap;
-import java.util.Map;
-import java.util.SortedSet;
-import java.util.TreeSet;
+// Contains Duplicate III
 
 /**
  * @author:wangzq
@@ -13,7 +8,13 @@ import java.util.TreeSet;
  * @url:https://leetcode.com/problems/contains-duplicate-iii/
  */
 
-public class Contains_Duplicate_III {
+import java.util.HashMap;
+import java.util.Map;
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class Solution {
+
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
         if (nums == null || nums.length == 0) {
             return false;

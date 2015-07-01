@@ -1,5 +1,5 @@
 
-// Plus One 368ms
+// Plus One
 
 /**
  * @author:wangzq
@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/plus-one/
  */
 
-public class Plus_One {
+public class Solution {
 
     public int[] plusOne(int[] digits) {
         int len = digits.length;

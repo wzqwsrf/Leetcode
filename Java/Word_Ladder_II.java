@@ -1,7 +1,5 @@
 
-//Word Ladder II
-
-import java.util.*;
+// Word Ladder II
 
 /**
  * @author:wangzq
@@ -10,7 +8,9 @@ import java.util.*;
  * @url:https://leetcode.com/problems/word-ladder-ii/
  */
 
-public class Word_Ladder_II {
+import java.util.*;
+
+public class Solution {
 
     private ArrayList<ArrayList<String>> list = new ArrayList<ArrayList<String>>();
 

@@ -1,7 +1,5 @@
 
-// Text Justification 444ms
-
-import java.util.ArrayList;
+// Text Justification
 
 /**
  * @author:wangzq
@@ -10,7 +8,9 @@ import java.util.ArrayList;
  * @url:https://leetcode.com/problems/text-justification/
  */
 
-public class Text_Justification {
+import java.util.ArrayList;
+
+public class Solution {
 
     private int len;
 

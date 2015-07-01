@@ -1,5 +1,5 @@
 
-//Reverse Linked List II
+// Reverse Linked List II
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/reverse-linked-list-ii/
  */
 
-public class Reverse_Linked_List_II {
+public class Solution {
+
     public ListNode reverseBetween(ListNode head, int m, int n) {
         ListNode aHead = new ListNode(0);
         aHead.next = head;

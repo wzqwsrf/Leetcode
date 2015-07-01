@@ -1,12 +1,5 @@
 
-//Remove Element 384ms
-
-/**
- * Given an array and a value,
- * remove all instances of that value in place and return the new length.
- * The order of elements can be changed.
- * It doesn't matter what you leave beyond the new length.
- */
+// Remove Element
 
 /**
  * @author:wangzq
@@ -17,7 +10,8 @@
  * 具体参考http://blog.csdn.net/u013027996/article/details/40152421
  */
 
-public class Remove_Element {
+public class Solution {
+
     public int removeElement(int[] A, int elem) {
         int len = A.length;
         int start = 0;

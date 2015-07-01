@@ -1,5 +1,5 @@
 
-//Remove Duplicates from Sorted List
+// Remove Duplicates from Sorted List
 
 /**
  * @author:wangzq
@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/remove-duplicates-from-sorted-list/
  */
 
-public class Remove_Duplicates_from_Sorted_List {
+public class Solution {
 
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) {

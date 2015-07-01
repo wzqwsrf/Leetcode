@@ -1,7 +1,5 @@
 
-//Gray Code
-
-import java.util.ArrayList;
+// Gray Code
 
 /**
  * @author:wangzq
@@ -10,7 +8,9 @@ import java.util.ArrayList;
  * @url:https://leetcode.com/problems/gray-code/
  */
 
-public class Gray_Code {
+import java.util.ArrayList;
+
+public class Solution {
 
     public ArrayList<Integer> grayCode(int n) {
         ArrayList<Integer> list = new ArrayList<Integer>();

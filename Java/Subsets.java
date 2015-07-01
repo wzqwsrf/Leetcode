@@ -1,8 +1,5 @@
 
-//Subsets
-
-import java.util.ArrayList;
-import java.util.Arrays;
+// Subsets
 
 /**
  * @author:wangzq
@@ -11,7 +8,11 @@ import java.util.Arrays;
  * @url:https://leetcode.com/problems/subsets/
  */
 
-public class Subsets {
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Solution {
+
     public int len;
 
     public ArrayList<ArrayList<Integer>> subsets(int[] S) {

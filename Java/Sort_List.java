@@ -8,16 +8,15 @@
  * @url:https://leetcode.com/problems/sort-list/
  */
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
-
-public class Sort_List {
+public class Solution {
+    /**
+     * Definition for singly-linked list.
+     * public class ListNode {
+     *     int val;
+     *     ListNode next;
+     *     ListNode(int x) { val = x; }
+     * }
+     */
     public ListNode sortList(ListNode head) {
         quickSort(head, null);
         return head;

@@ -1,5 +1,5 @@
 
-//Word Search
+// Word Search
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/word-search/
  */
 
-public class Word_Search {
+public class Solution {
+
     private int stepArr[][] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
     private int m, n, len;
     private int visit[][];

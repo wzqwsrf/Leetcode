@@ -1,7 +1,5 @@
 
-//Restore IP Addresses
-
-import java.util.ArrayList;
+// Restore IP Addresses
 
 /**
  * @author:wangzq
@@ -10,7 +8,9 @@ import java.util.ArrayList;
  * @url:https://leetcode.com/problems/restore-ip-addresses/
  */
 
-public class Restore_IP_Addresses {
+import java.util.ArrayList;
+
+public class Solution {
 
     public ArrayList<String> restoreIpAddresses(String s) {
         ArrayList<String> list = new ArrayList<String>();

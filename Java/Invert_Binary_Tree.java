@@ -1,5 +1,5 @@
 
-//Invert Binary Tree
+// Invert Binary Tree
 
 /**
  * @author:wangzq
@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/invert-binary-tree/
  */
 
-public class Invert_Binary_Tree {
+public class Solution {
     /**
      * Definition for a binary tree node.
      * public class TreeNode {

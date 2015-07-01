@@ -1,8 +1,5 @@
 
-//Word Search II
-
-import java.util.ArrayList;
-import java.util.List;
+// Word Search II
 
 /**
  * @author:wangzq
@@ -11,7 +8,11 @@ import java.util.List;
  * @url:https://leetcode.com/problems/word-search-ii/
  */
 
-public class Word_Search_II {
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
+
     private int m, n;
     private int visit[][];
     private Trie trie;

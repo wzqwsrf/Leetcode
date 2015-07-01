@@ -1,5 +1,5 @@
 
-//Decode Ways
+// Decode Ways
 
 /**
  * @author:wangzq
@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/decode-ways/
  */
 
-public class Decode_Ways {
+public class Solution {
 
     public int numDecodings(String s) {
         if (s == null || "".equals(s.trim())) {

@@ -1,5 +1,5 @@
 
-// Container With Most Water 380ms
+// Container With Most Water
 
 
 /**
@@ -9,7 +9,8 @@
  * @url:https://leetcode.com/problems/container-with-most-water/
  */
 
-public class Container_With_Most_Water {
+public class Solution {
+
     public int maxArea(int[] height) {
         int len = height.length;
         int max = 0;

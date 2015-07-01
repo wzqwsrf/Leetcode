@@ -1,8 +1,5 @@
 
-// Contains Duplicate 444ms
-
-import java.util.HashMap;
-import java.util.Map;
+// Contains Duplicate
 
 /**
  * @author:wangzq
@@ -12,7 +9,11 @@ import java.util.Map;
  * hashmap 统计数字出现的次数，如果大于1就返回true。
  */
 
-public class Contains_Duplicate {
+import java.util.HashMap;
+import java.util.Map;
+
+public class Solution {
+
     public boolean containsDuplicate(int[] nums) {
         if (nums == null && nums.length == 0) {
             return false;

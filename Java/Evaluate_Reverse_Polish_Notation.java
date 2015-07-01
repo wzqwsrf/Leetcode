@@ -1,7 +1,5 @@
 
-//Evaluate Reverse Polish Notation
-
-import java.util.Stack;
+// Evaluate Reverse Polish Notation
 
 /**
  * @author:wangzq
@@ -10,7 +8,9 @@ import java.util.Stack;
  * @url:https://leetcode.com/problems/evaluate-reverse-polish-notation/
  */
 
-public class Evaluate_Reverse_Polish_Notation {
+import java.util.Stack;
+
+public class Solution {
     public int evalRPN(String[] tokens) {
         Stack<Integer> stack = new Stack<Integer>();
         int len = tokens.length;

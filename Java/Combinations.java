@@ -1,7 +1,5 @@
 
-//Combinations
-
-import java.util.ArrayList;
+// Combinations
 
 /**
  * @author:wangzq
@@ -10,7 +8,10 @@ import java.util.ArrayList;
  * @url:https://leetcode.com/problems/combinations/
  */
 
-public class Combinations {
+import java.util.ArrayList;
+
+public class Solution {
+
     public ArrayList<ArrayList<Integer>> combine(int n, int k) {
         ArrayList<ArrayList<Integer>> list = new ArrayList<ArrayList<Integer>>();
         ArrayList<Integer> numList = new ArrayList<Integer>();

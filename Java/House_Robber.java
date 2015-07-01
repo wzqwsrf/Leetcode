@@ -1,5 +1,5 @@
 
-//House Robber  210ms
+// House Robber
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/house-robber/
  */
 
-public class House_Robber {
+public class Solution {
+
     public int rob(int[] num) {
         if (num == null || num.length == 0) {
             return 0;

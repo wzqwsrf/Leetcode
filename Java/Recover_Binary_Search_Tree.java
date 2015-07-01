@@ -1,5 +1,5 @@
 
-//Recover Binary Search Tree
+// Recover Binary Search Tree
 
 /**
  * @author:wangzq
@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/recover-binary-search-tree/
  */
 
-public class Recover_Binary_Search_Tree {
+public class Solution {
 
     private TreeNode first;
     private TreeNode sec;

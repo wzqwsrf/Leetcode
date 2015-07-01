@@ -1,5 +1,5 @@
 
-//Majority Element II
+// Majority Element II
 
 /**
  * @author:wangzq
@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/majority-element-ii/
  */
 
-public class Majority_Element {
+public class Solution {
 
     //解法一
     public List<Integer> majorityElement(int[] nums) {

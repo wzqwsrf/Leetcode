@@ -1,5 +1,5 @@
 
-//Linked List Cycle II
+// Linked List Cycle II
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/linked-list-cycle-ii/
  */
 
-public class Linked_List_Cycle_II {
+public class Solution {
+
     public ListNode detectCycle(ListNode head) {
         if (head == null) {
             return null;

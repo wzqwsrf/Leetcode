@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/divide-two-integers/
  */
 
-public class Divide_Two_Integers {
+public class Solution {
+
     public int divide(int dividend, int divisor) {
         return dividend / divisor;
     }

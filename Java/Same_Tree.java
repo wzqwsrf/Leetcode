@@ -1,7 +1,5 @@
 
-//Same Tree
-
-import java.util.ArrayList;
+// Same Tree
 
 /**
  * @author:wangzq
@@ -10,7 +8,9 @@ import java.util.ArrayList;
  * @url:https://leetcode.com/problems/same-tree/
  */
 
-public class Same_Tree {
+import java.util.ArrayList;
+
+public class Solution {
 
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if(p != null && q != null){

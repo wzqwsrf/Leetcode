@@ -1,7 +1,5 @@
 
-//The Skyline Problem
-
-import java.util.*;
+// The Skyline Problem
 
 /**
  * @author:wangzq
@@ -10,7 +8,10 @@ import java.util.*;
  * @url:https://leetcode.com/problems/the-skyline-problem/
  */
 
-public class The_Skyline_Problem {
+import java.util.*;
+
+public class Solution {
+
     public List<int[]> getSkyline(int[][] buildings) {
         List<int[]> list = new ArrayList<int[]>();
         if (buildings == null || buildings.length == 0) {

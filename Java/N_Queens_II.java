@@ -1,5 +1,5 @@
 
-// N-Queens II 243ms
+// N-Queens II
 
 /**
  * @author:wangzq
@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/n-queens-ii/
  */
 
-public class N_Queens_II {
+public class Solution {
 
     public int totalNQueens(int n) {
         if (n <= 0) {

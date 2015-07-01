@@ -1,7 +1,5 @@
 
-//Sort Colors
-
-import java.util.Stack;
+// Sort Colors
 
 /**
  * @author:wangzq
@@ -10,7 +8,9 @@ import java.util.Stack;
  * @url:https://leetcode.com/problems/sort-colors/
  */
 
-public class Sort_Colors {
+import java.util.Stack;
+
+public class Solution {
     public void sortColors(int[] A) {
         if (A == null || A.length == 0) {
             return;

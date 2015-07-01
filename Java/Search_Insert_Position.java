@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/search-insert-position/
  */
 
-public class Search_Insert_Position {
+public class Solution {
+
     public int searchInsert(int[] A, int target) {
         if (A == null || A.length == 0) {
             return 0;

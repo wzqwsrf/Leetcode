@@ -1,7 +1,5 @@
 
-//Word Break
-
-import java.util.Set;
+// Word Break
 
 /**
  * @author:wangzq
@@ -10,7 +8,9 @@ import java.util.Set;
  * @url:https://leetcode.com/problems/word-break/
  */
 
-public class Word_Break {
+import java.util.Set;
+
+public class Solution {
     public boolean wordBreak(String s, Set<String> dict) {
         if (dict == null || dict.size() == 0) {
             return false;

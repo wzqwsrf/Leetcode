@@ -1,8 +1,6 @@
 
 // Letter Combinations of a Phone Number
 
-import java.util.ArrayList;
-
 /**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
@@ -10,7 +8,10 @@ import java.util.ArrayList;
  * @url:https://leetcode.com/problems/letter-combinations-of-a-phone-number/
  */
 
-public class Letter_Combinations_of_a_Phone_Number {
+import java.util.ArrayList;
+
+public class Solution {
+
     public String array[] = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
 
     public ArrayList<String> letterCombinations(String digits) {

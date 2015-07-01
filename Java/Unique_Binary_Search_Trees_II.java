@@ -1,7 +1,5 @@
 
-//Unique Binary Search Trees II
-
-import java.util.ArrayList;
+// Unique Binary Search Trees II
 
 /**
  * @author:wangzq
@@ -10,7 +8,9 @@ import java.util.ArrayList;
  * @url:https://leetcode.com/problems/unique-binary-search-trees-ii/
  */
 
-public class Unique_Binary_Search_Trees_II {
+import java.util.ArrayList;
+
+public class Solution {
 
     public ArrayList<TreeNode> generateTrees(int n) {
         return dfs(1, n);

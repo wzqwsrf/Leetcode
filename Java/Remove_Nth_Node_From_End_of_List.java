@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/remove-nth-node-from-end-of-list/
  */
 
-public class Remove_Nth_Node_From_End_of_List {
+public class Solution {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
         if (n == 0) {

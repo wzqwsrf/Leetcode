@@ -1,5 +1,5 @@
 
-//Reorder List
+// Reorder List
 
 /**
  * @author:wangzq
@@ -8,8 +8,8 @@
  * @url:https://leetcode.com/problems/reorder-list/
  */
 
+public class Solution {
 
-public class Reorder_List {
     public void reorderList(ListNode head) {
         if (head == null || head.next == null) {
             return;

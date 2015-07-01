@@ -1,5 +1,5 @@
 
-// Insert Interval 432ms
+// Insert Interval
 
 /**
  * @author:wangzq
@@ -10,8 +10,7 @@
 
 import java.util.ArrayList;
 
-
-public class Insert_Interval {
+public class Solution {
 
     public ArrayList<Interval> insert(ArrayList<Interval> intervals,
                                       Interval newInterval) {

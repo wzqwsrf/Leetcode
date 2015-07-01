@@ -1,5 +1,5 @@
 
-// Unique Paths II 408ms
+// Unique Paths II
 
 /**
  * @author:wangzq
@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/unique-paths-ii/
  */
 
-public class Unique_Paths_II {
+public class Solution {
 
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length;

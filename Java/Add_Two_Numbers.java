@@ -1,13 +1,5 @@
 
-// Add Two Numbers 704ms
-
-/**
- * You are given two linked lists representing two non-negative numbers.
- * The digits are stored in reverse order and each of their nodes
- * contain a single digit. Add the two numbers and return it as a linked list.
- Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
- Output: 7 -> 0 -> 8
- */
+// Add Two Numbers
 
 /**
  * @author:wangzq
@@ -17,19 +9,19 @@
  * 大数相加，按位求和，注意进位问题
  * 具体参考http://blog.csdn.net/u013027996/article/details/37908619
  */
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
- */
 
-public class Add_Two_Numbers {
+public class Solution {
+    /**
+     * Definition for singly-linked list.
+     * public class ListNode {
+     *     int val;
+     *     ListNode next;
+     *     ListNode(int x) {
+     *         val = x;
+     *         next = null;
+     *     }
+     * }
+     */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null && l2 == null) {
             return null;

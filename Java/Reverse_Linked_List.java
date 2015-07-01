@@ -1,5 +1,5 @@
 
-//Reverse Linked List
+// Reverse Linked List
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/reverse-linked-list/
  */
 
-public class Reverse_Linked_List {
+public class Solution {
+
     public ListNode reverseList(ListNode head) {
         ListNode end = null;
         ListNode p = head;

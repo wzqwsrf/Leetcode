@@ -1,5 +1,5 @@
 
-//House Robber II
+// House Robber II
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/house-robber-ii/
  */
 
-public class House_Robber_II {
+public class Solution {
+
     public int rob(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;

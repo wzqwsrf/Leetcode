@@ -1,7 +1,5 @@
 
-//Partition List
-
-import java.util.Stack;
+// Partition List
 
 /**
  * @author:wangzq
@@ -10,7 +8,9 @@ import java.util.Stack;
  * @url:https://leetcode.com/problems/partition-list/
  */
 
-public class Partition_List {
+import java.util.Stack;
+
+public class Solution {
 
     public static ListNode partition(ListNode head, int x) {
         if (head == null || head.next == null) {

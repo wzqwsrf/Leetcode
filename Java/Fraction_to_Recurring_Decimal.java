@@ -1,8 +1,5 @@
 
-//Fraction to Recurring Decimal 248ms
-
-import java.util.HashMap;
-import java.util.Map;
+// Fraction to Recurring Decimal
 
 /**
  * @author:wangzq
@@ -11,7 +8,11 @@ import java.util.Map;
  * @url:https://leetcode.com/problems/fraction-to-recurring-decimal/
  */
 
-public class Fraction_to_Recurring_Decimal {
+import java.util.HashMap;
+import java.util.Map;
+
+public class Solution {
+
     public String fractionToDecimal(int numerator, int denominator) {
         if (numerator == 0) {
             return "0";

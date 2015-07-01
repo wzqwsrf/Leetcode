@@ -1,16 +1,5 @@
 
-//Min Stack 298ms
-
-/**
- * Min Stack
- * Total Accepted: 15688 Total Submissions: 101910 My Submissions Question Solution
- * Design a stack that supports push, pop, top,
- * and retrieving the minimum element in constant time.
- * push(x) -- Push element x onto stack.
- * pop() -- Removes the element on top of the stack.
- * top() -- Get the top element.
- * getMin() -- Retrieve the minimum element in the stack.
- */
+// Min Stack
 
 /**
  * @author:wangzq
@@ -21,7 +10,8 @@
  * 具体参考http://blog.csdn.net/u013027996/article/details/43090751
  */
 
-class MinStack {
+class Solution {
+
     Stack<Integer> stack = new Stack<Integer>();
     Stack<Integer> minStack = new Stack<Integer>();
 

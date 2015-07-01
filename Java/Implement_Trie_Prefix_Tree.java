@@ -1,5 +1,5 @@
 
-//Implement Trie (Prefix Tree)
+// Implement Trie (Prefix Tree)
 
 /**
  * @author:wangzq
@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/implement-trie-prefix-tree/
  */
 
-public class Implement_Trie_Prefix_Tree {
+public class Solution {
 
     class TrieNode {
         // Initialize your data structure here.

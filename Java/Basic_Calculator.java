@@ -1,16 +1,5 @@
 
-// Add Binary 444ms
-
-/**
- * 题目：
- * Given two binary strings, return their sum (also a binary string).
- * For example,
- * a = "11"
- * b = "1"
- * Return "100".
- */
-
-import java.util.Stack;
+// Basic Calculator
 
 /**
  * @author:wangzq
@@ -19,7 +8,10 @@ import java.util.Stack;
  * @url:https://leetcode.com/problems/basic-calculator/
  */
 
-public class Basic_Calculator {
+import java.util.Stack;
+
+public class Solution {
+
     public int calculate(String s) {
         Stack<Integer> stack = new Stack<Integer>();
         int len = s.length();

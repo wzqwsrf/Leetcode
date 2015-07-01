@@ -1,7 +1,5 @@
 
-//Word Break II
-
-import java.util.*;
+// Word Break II
 
 /**
  * @author:wangzq
@@ -10,7 +8,9 @@ import java.util.*;
  * @url:https://leetcode.com/problems/word-break-ii/
  */
 
-public class Word_Break_II {
+import java.util.*;
+
+public class Solution {
     public List<String> wordBreak(String s, Set<String> wordDict) {
         List<String> list = new ArrayList<String>();
         if (wordDict == null || wordDict.size() == 0) {

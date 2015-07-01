@@ -1,7 +1,5 @@
 
-//Maximal Rectangle
-
-import java.util.Stack;
+// Maximal Rectangle
 
 /**
  * @author:wangzq
@@ -10,7 +8,9 @@ import java.util.Stack;
  * @url:https://leetcode.com/problems/maximal-rectangle/
  */
 
-public class Maximal_Rectangle {
+import java.util.Stack;
+
+public class Solution {
 
     public int maximalRectangle(char[][] matrix) {
         if (matrix == null || matrix.length == 0) {

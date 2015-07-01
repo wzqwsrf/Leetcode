@@ -1,8 +1,5 @@
 
-//Contains Duplicate II
-
-import java.util.HashMap;
-import java.util.Map;
+// Contains Duplicate II
 
 /**
  * @author:wangzq
@@ -11,7 +8,11 @@ import java.util.Map;
  * @url:https://leetcode.com/problems/contains-duplicate-ii/
  */
 
-public class Contains_Duplicate_II {
+import java.util.HashMap;
+import java.util.Map;
+
+public class Solution {
+
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         if (nums == null || nums.length == 0) {
             return false;

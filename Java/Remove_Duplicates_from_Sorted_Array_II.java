@@ -1,5 +1,5 @@
 
-//Remove Duplicates from Sorted Array II
+// Remove Duplicates from Sorted Array II
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
  */
 
-public class Remove_Duplicates_from_Sorted_Array_II {
+public class Solution {
+
     public int removeDuplicates(int[] A) {
         if (A == null || A.length == 0) {
             return 0;

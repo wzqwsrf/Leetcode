@@ -1,5 +1,5 @@
 
-// Permutation Sequence 372ms
+// Permutation Sequence
 
 /**
  * @author:wangzq
@@ -11,7 +11,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Permutation_Sequence {
+public class Solution {
 
     public String getPermutation(int n, int k) {
         List<Integer> numList = new ArrayList<Integer>();

@@ -1,7 +1,5 @@
 
-//Basic Calculator II
-
-import java.util.*;
+// Basic Calculator II
 
 /**
  * @author:wangzq
@@ -10,7 +8,9 @@ import java.util.*;
  * @url:https://leetcode.com/problems/basic-calculator-ii/
  */
 
-public class Basic_Calculator_II {
+import java.util.*;
+
+public class Solution {
 
     public int calculate(String s) {
         if (s == null || "".equals(s.trim())) {

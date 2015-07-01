@@ -1,8 +1,6 @@
 
 // Generate Parentheses
 
-import java.util.ArrayList;
-
 /**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
@@ -10,7 +8,10 @@ import java.util.ArrayList;
  * @url:https://leetcode.com/problems/generate-parentheses/
  */
 
-public class Generate_Parentheses {
+import java.util.ArrayList;
+
+public class Solution {
+
     public ArrayList<String> generateParenthesis(int n) {
         ArrayList<String> list = new ArrayList<String>();
         if (n <= 0) {

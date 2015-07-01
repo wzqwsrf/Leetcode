@@ -1,5 +1,5 @@
 
-//Edit Distance
+// Edit Distance
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/edit-distance/
  */
 
-public class Edit_Distance {
+public class Solution {
+
     public int minDistance(String word1, String word2) {
         int len1 = word1.length();
         int len2 = word2.length();

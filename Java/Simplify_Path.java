@@ -1,7 +1,5 @@
 
-//Simplify Path
-
-import java.util.Stack;
+// Simplify Path
 
 /**
  * @author:wangzq
@@ -10,7 +8,10 @@ import java.util.Stack;
  * @url:https://leetcode.com/problems/simplify-path/
  */
 
-public class Simplify_Path {
+import java.util.Stack;
+
+public class Solution {
+
     public String simplifyPath(String path) {
         Stack<String> stack = new Stack<String>();
         int len = path.length();

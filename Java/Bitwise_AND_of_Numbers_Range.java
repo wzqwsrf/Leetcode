@@ -1,5 +1,5 @@
 
-//Bitwise AND of Numbers Range 325ms
+// Bitwise AND of Numbers Range
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/bitwise-and-of-numbers-range/
  */
 
-public class Bitwise_AND_of_Numbers_Range {
+public class Solution {
+
     public int rangeBitwiseAnd(int m, int n) {
         if (m == 0) {
             return 0;

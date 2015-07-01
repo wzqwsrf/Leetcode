@@ -1,5 +1,5 @@
 
-//Search in Rotated Sorted Array II
+// Search in Rotated Sorted Array II
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
  */
 
-public class Search_in_Rotated_Sorted_Array_II {
+public class Solution {
+
     public boolean search(int[] A, int target) {
         if (A == null || A.length == 0) {
             return false;

@@ -1,7 +1,5 @@
 
-//Scramble String
-
-import java.util.Arrays;
+// Scramble String
 
 /**
  * @author:wangzq
@@ -10,7 +8,9 @@ import java.util.Arrays;
  * @url:https://leetcode.com/problems/scramble-string/
  */
 
-public class Scramble_String {
+import java.util.Arrays;
+
+public class Solution {
 
     public boolean isScramble(String s1, String s2) {
         if (s1.equals(s2)) {

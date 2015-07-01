@@ -1,7 +1,5 @@
 
-//Maximal Square
-
-import java.util.Stack;
+// Maximal Square
 
 /**
  * @author:wangzq
@@ -10,7 +8,9 @@ import java.util.Stack;
  * @url:https://leetcode.com/problems/maximal-square/
  */
 
-public class Maximal_Square {
+import java.util.Stack;
+
+public class Solution {
 
     public class Solution {
         public int maximalSquare(char[][] matrix) {

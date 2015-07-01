@@ -1,7 +1,5 @@
 
-// Binary Search Tree Iterator 400ms
-
-import java.util.*;
+// Binary Search Tree Iterator
 
 /**
  * @author:wangzq
@@ -10,7 +8,10 @@ import java.util.*;
  * @url:https://leetcode.com/problems/binary-search-tree-iterator/
  */
 
-public class Binary_Search_Tree_Iterator {
+import java.util.*;
+
+public class Solution {
+
     private Queue<Integer> queue;
 
     public Binary_Search_Tree_Iterator(TreeNode root) {

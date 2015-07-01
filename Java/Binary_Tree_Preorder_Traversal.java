@@ -1,8 +1,5 @@
 
-//Binary Tree Preorder Traversal
-
-import java.util.ArrayList;
-import java.util.Stack;
+// Binary Tree Preorder Traversal
 
 /**
  * @author:wangzq
@@ -11,7 +8,11 @@ import java.util.Stack;
  * @url:https://leetcode.com/problems/binary-tree-preorder-traversal/
  */
 
-public class Binary_Tree_Preorder_Traversal {
+import java.util.ArrayList;
+import java.util.Stack;
+
+public class Solution {
+
     private ArrayList<Integer> list;
 
     public ArrayList<Integer> preorderTraversal(TreeNode root) {

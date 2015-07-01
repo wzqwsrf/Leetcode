@@ -8,16 +8,15 @@
  * @url:https://leetcode.com/problems/insertion-sort-list/
  */
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
-
-public class Insertion_Sort_List {
+public class Solution {
+    /**
+     * Definition for singly-linked list.
+     * public class ListNode {
+     *     int val;
+     *     ListNode next;
+     *     ListNode(int x) { val = x; }
+     * }
+     */
     public ListNode insertionSortList(ListNode head) {
         ListNode aHead = new ListNode(0);
         aHead.next = null;

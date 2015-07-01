@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/powx-n/
  */
 
-public class Pow_x_n {
+public class Solution {
+
     public double actualPow(double x, int n) {
         if (n == 1) {
             return x;

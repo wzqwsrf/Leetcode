@@ -1,5 +1,5 @@
 
-//Add and Search Word - Data structure design
+// Add and Search Word - Data structure design
 
 /**
  * @author:wangzq
@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/add-and-search-word-data-structure-design/
  */
 
-public class Add_and_Search_Word_Data_structure_design {
+public class Solution {
 
     class TrieNode {
         // Initialize your data structure here.

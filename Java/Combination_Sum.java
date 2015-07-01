@@ -1,9 +1,6 @@
 
 // Combination Sum
 
-import java.util.ArrayList;
-import java.util.Collections;
-
 /**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
@@ -11,7 +8,11 @@ import java.util.Collections;
  * @url:https://leetcode.com/problems/combination-sum/
  */
 
-public class Combination_Sum {
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Solution {
+
     private int len = 0;
 
     public ArrayList<ArrayList<Integer>> combinationSum(int[] candidates, int target) {

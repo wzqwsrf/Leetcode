@@ -1,18 +1,7 @@
 
-// Permutations 268ms
-
-import java.util.ArrayList;
-import java.util.Arrays;
+// Permutations
 
 /**
- * 题目：
- * Given a collection of numbers, return all possible permutations.
- * For example,
- * [1,2,3] have the following permutations:
- * [1,2,3], [1,3,2], [2,1,3], [2,3,1], [3,1,2], and [3,2,1].
- */
-
-/*
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
  * @date:2015年02月04日09:55:46
@@ -21,8 +10,12 @@ import java.util.Arrays;
  * 具体参考：http://blog.csdn.net/u013027996/article/details/18734103
  */
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 //方法一
-public class Permutations {
+public class Solution {
+
     public ArrayList<ArrayList<Integer>> list;
 
     public ArrayList<ArrayList<Integer>> permute(int[] num) {

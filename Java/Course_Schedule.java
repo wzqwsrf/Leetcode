@@ -1,9 +1,5 @@
 
-//Course Schedule
-
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
+// Course Schedule
 
 /**
  * @author:wangzq
@@ -12,7 +8,12 @@ import java.util.Queue;
  * @url:https://leetcode.com/problems/course-schedule/
  */
 
-public class Course_Schedule {
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Solution {
+
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         if (prerequisites == null || prerequisites.length == 0) {
             return true;

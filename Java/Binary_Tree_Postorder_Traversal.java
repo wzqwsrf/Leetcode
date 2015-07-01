@@ -1,10 +1,5 @@
 
-//Binary Tree Postorder Traversal
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Stack;
+// Binary Tree Postorder Traversal
 
 /**
  * @author:wangzq
@@ -13,7 +8,13 @@ import java.util.Stack;
  * @url:https://leetcode.com/problems/binary-tree-postorder-traversal/
  */
 
-public class Binary_Tree_Postorder_Traversal {
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Stack;
+
+public class Solution {
+
     private ArrayList<Integer> list;
     public ArrayList<Integer> postorderTraversal(TreeNode root) {
         list = new ArrayList<Integer>();

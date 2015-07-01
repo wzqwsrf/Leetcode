@@ -1,5 +1,5 @@
 
-// Rotate List 372ms
+// Rotate List
 
 /**
  * @author:wangzq
@@ -8,20 +8,18 @@
  * @url:https://leetcode.com/problems/rotate-list/
  */
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
- */
-
-public class Rotate_List {
-
+public class Solution {
+    /**
+     * Definition for singly-linked list.
+     * public class ListNode {
+     *     int val;
+     *     ListNode next;
+     *     ListNode(int x) {
+     *         val = x;
+     *         next = null;
+     *     }
+     * }
+     */
     public ListNode rotateRight(ListNode head, int n) {
         if (n == 0 || head == null) {
             return head;

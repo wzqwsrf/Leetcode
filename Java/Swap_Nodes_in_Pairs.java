@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/swap-nodes-in-pairs/
  */
 
-public class Swap_Nodes_in_Pairs {
+public class Solution {
 
     public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) {

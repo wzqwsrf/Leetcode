@@ -1,10 +1,5 @@
 
-//Merge k Sorted Lists 516ms
-
-/**
- * Merge k sorted linked lists and return it as one sorted list.
- * Analyze and describe its complexity.
- */
+// Merge k Sorted Lists
 
 /**
  * @author:wangzq
@@ -15,21 +10,21 @@
  * 2、参考地址LeetCode:Merge k Sorted Lists，分析的很详细。
  * 具体参考http://blog.csdn.net/u013027996/article/details/37878255
  */
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
- */
 
 import java.util.ArrayList;
 
-public class Merge_k_Sorted_Lists {
+public class Solution {
+    /**
+     * Definition for singly-linked list.
+     * public class ListNode {
+     *     int val;
+     *     ListNode next;
+     *     ListNode(int x) {
+     *         val = x;
+     *         next = null;
+     *     }
+     * }
+     */
     public ListNode mergeKLists(ArrayList<ListNode> lists) {
         if (lists == null || lists.size() == 0) {
             return null;

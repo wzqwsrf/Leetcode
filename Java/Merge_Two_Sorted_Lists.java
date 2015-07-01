@@ -1,10 +1,5 @@
 
-//Merge Two Sorted Lists 576ms
-
-/**
- * Merge two sorted linked lists and return it as a new list.
- * The new list should be made by splicing together the nodes of the first two lists.
- */
+// Merge Two Sorted Lists
 
 /**
  * @author:wangzq
@@ -16,19 +11,18 @@
  * 具体参考http://blog.csdn.net/u013027996/article/details/37810407
  */
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
- */
-
-public class Merge_Two_Sorted_Lists {
+public class Solution {
+    /**
+     * Definition for singly-linked list.
+     * public class ListNode {
+     *     int val;
+     *     ListNode next;
+     *     ListNode(int x) {
+     *         val = x;
+     *         next = null;
+     *     }
+     * }
+     */
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode node = new ListNode(0);
         ListNode point = node;

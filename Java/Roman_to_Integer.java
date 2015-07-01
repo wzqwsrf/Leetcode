@@ -1,5 +1,5 @@
 
-// Roman to Integer 278ms
+// Roman to Integer
 
 
 /**
@@ -9,7 +9,8 @@
  * @url:https://leetcode.com/problems/roman-to-integer/
  */
 
-public class Roman_to_Integer {
+public class Solution {
+
     public int numMap[];
 
     public int romanToInt(String s) {

@@ -1,7 +1,5 @@
 
-// Repeated DNA Sequences 416ms
-
-import java.util.*;
+// Repeated DNA Sequences
 
 /**
  * @author:wangzq
@@ -10,7 +8,10 @@ import java.util.*;
  * @url:https://leetcode.com/problems/repeated-dna-sequences/
  */
 
-public class Repeated_DNA_Sequences {
+import java.util.*;
+
+public class Solution {
+
     public List<String> findRepeatedDnaSequences(String s) {
         int len = s.length();
         List<String> list = new ArrayList<String>();

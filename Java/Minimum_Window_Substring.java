@@ -1,5 +1,5 @@
 
-//Minimum Window Substring
+// Minimum Window Substring
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/minimum-window-substring/
  */
 
-public class Minimum_Window_Substring {
+public class Solution {
+
     public String minWindow(String S, String T) {
         if (S == null || T == null || "".equals(S) || "".equals(T)) {
             return "";

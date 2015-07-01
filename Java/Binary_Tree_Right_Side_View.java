@@ -1,5 +1,5 @@
 
-//Bitwise AND of Numbers Range 325ms
+// Binary Tree Right Side View
 
 /**
  * @author:wangzq
@@ -13,8 +13,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-
-public class Binary_Tree_Right_Side_View {
+public class Solution {
 
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> rightNode = new ArrayList<Integer>();

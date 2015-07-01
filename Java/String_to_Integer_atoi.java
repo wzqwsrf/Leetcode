@@ -1,6 +1,5 @@
 
-// String to Integer (atoi) 240ms
-
+// String to Integer (atoi)
 
 /**
  * @author:wangzq
@@ -8,7 +7,9 @@
  * @date:2015年04月16日10:14:05
  * @url:https://leetcode.com/problems/string-to-integer-atoi/
  */
-public class String_to_Integer_atoi {
+
+public class Solution {
+
     public int myAtoi(String str) {
         if (str == null || "".equals(str.trim())) {
             return 0;

@@ -1,5 +1,5 @@
 
-//Count Complete Tree Nodes
+// Count Complete Tree Nodes
 
 /**
  * @author:wangzq
@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/count-complete-tree-nodes/
  */
 
-public class Count_Complete_Tree_Nodes {
+public class Solution {
     /**
      * Definition for a binary tree node.
      * public class TreeNode {

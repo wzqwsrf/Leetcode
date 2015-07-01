@@ -1,8 +1,6 @@
 
 // Maximum Gap
 
-import java.util.Arrays;
-
 /**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
@@ -10,7 +8,10 @@ import java.util.Arrays;
  * @url:https://leetcode.com/problems/maximum-gap/
  */
 
-public class Maximum_Gap {
+import java.util.Arrays;
+
+public class Solution {
+
     public int maximumGap1(int[] nums) {
         if (nums == null || nums.length < 2) {
             return 0;

@@ -1,5 +1,5 @@
 
-//Set Matrix Zeroes
+// Set Matrix Zeroes
 
 import java.util.HashSet;
 import java.util.Set;
@@ -11,7 +11,8 @@ import java.util.Set;
  * @url:https://leetcode.com/problems/set-matrix-zeroes/
  */
 
-public class Set_Matrix_Zeroes {
+public class Solution {
+
     public void setZeroes(int[][] matrix) {
         if (matrix == null) {
             return;

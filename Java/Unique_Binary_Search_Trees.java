@@ -1,5 +1,5 @@
 
-//Unique Binary Search Trees
+// Unique Binary Search Trees
 
 /**
  * @author:wangzq
@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/unique-binary-search-trees/
  */
 
-public class Unique_Binary_Search_Trees {
+public class Solution {
 
     public int numTrees(int n) {
         return addAllNum(1, n);

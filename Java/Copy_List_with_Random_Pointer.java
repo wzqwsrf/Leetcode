@@ -1,7 +1,5 @@
 
-//Copy List with Random Pointer
-
-import java.util.HashMap;
+// Copy List with Random Pointer
 
 /**
  * @author:wangzq
@@ -10,8 +8,9 @@ import java.util.HashMap;
  * @url:https://leetcode.com/problems/copy-list-with-random-pointer/
  */
 
+import java.util.HashMap;
 
-public class Copy_List_with_Random_Pointer {
+public class Solution {
 
     private HashMap<RandomListNode, RandomListNode> visitedMap;
 

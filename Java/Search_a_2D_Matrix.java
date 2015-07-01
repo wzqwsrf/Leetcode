@@ -1,5 +1,5 @@
 
-//Search a 2D Matrix
+// Search a 2D Matrix
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/search-a-2d-matrix/
  */
 
-public class Search_a_2D_Matrix {
+public class Solution {
+
     public boolean searchMatrix(int[][] matrix, int target) {
         if (matrix == null) {
             return false;

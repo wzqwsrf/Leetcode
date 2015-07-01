@@ -1,5 +1,5 @@
 
-// Rotate List 308ms
+// Unique Paths
 
 /**
  * @author:wangzq
@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/unique-paths/
  */
 
-public class Unique_Paths {
+public class Solution {
 
     public int uniquePaths(int m, int n) {
         int dp[][] = new int[m][n];

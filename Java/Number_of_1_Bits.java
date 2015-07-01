@@ -1,5 +1,5 @@
 
-//Number of 1 Bits 245ms
+// Number of 1 Bits
 
 /**
  * @author:wangzq
@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/number-of-1-bits/
  */
 
-public class Number_of_1_Bits {
+public class Solution {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
         int count = 0;

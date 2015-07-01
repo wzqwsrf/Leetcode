@@ -1,5 +1,5 @@
 
-//Count Primes
+// Count Primes
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/count-primes/
  */
 
-public class Count_Primes {
+public class Solution {
+
     public int countPrimes(int n) {
         boolean[] notPrime = new boolean[n];
         int count = 0;

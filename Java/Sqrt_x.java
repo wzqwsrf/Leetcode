@@ -1,5 +1,5 @@
 
-// Sqrt(x)  440ms
+// Sqrt(x)
 
 /**
  * @author:wangzq
@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/sqrtx/
  */
 
-public class Sqrt_x {
+public class Solution {
 
     public int sqrt(int x) {
         double result = x;

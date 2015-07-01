@@ -1,13 +1,5 @@
 
-// Largest Number 273 ms
-
-/**
- * Given a list of non negative integers, arrange them such that they form the largest number.
- * For example, given [3, 30, 34, 5, 9], the largest formed number is 9534330.
- * Note: The result may be very large, so you need to return a string instead of an integer.
- * Credits:
- * Special thanks to @ts for adding this problem and creating all test cases.
- */
+// Largest Number
 
 /**
  * @author:wangzq
@@ -18,7 +10,8 @@
  * 具体参考：
  */
 
-public class Largest_Number {
+public class Solution {
+
     public String largestNumber(int[] num) {
         int len = num.length;
         String array[] = new String[len];

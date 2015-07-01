@@ -1,10 +1,5 @@
 
-//Remove Linked List Elements
-
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+// Remove Linked List Elements
 
 /**
  * @author:wangzq
@@ -13,7 +8,13 @@ import java.util.Set;
  * @url:https://leetcode.com/problems/remove-linked-list-elements/
  */
 
-public class Remove_Linked_List_Elements {
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+public class Solution {
+
     public ListNode removeElements(ListNode head, int val) {
         while (head != null && head.val == val) {
             head = head.next;

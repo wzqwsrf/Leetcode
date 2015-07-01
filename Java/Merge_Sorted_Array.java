@@ -1,7 +1,5 @@
 
-//Scramble String
-
-import java.util.Arrays;
+// Merge Sorted Array
 
 /**
  * @author:wangzq
@@ -10,7 +8,9 @@ import java.util.Arrays;
  * @url:https://leetcode.com/problems/merge-sorted-array/
  */
 
-public class Merge_Sorted_Array {
+import java.util.Arrays;
+
+public class Solution {
 
     public void merge(int A[], int m, int B[], int n) {
         int tempArr[] = new int[m];

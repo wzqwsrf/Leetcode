@@ -1,7 +1,5 @@
 
-//N-Queens 404ms
-
-import java.util.ArrayList;
+// N-Queens
 
 /**
  * @author:wangzq
@@ -10,7 +8,9 @@ import java.util.ArrayList;
  * @url:https://leetcode.com/problems/n-queens/
  */
 
-public class N_Queens {
+import java.util.ArrayList;
+
+public class Solution {
 
     public ArrayList<String[]> solveNQueens(int n) {
         list = new ArrayList<String[]>();

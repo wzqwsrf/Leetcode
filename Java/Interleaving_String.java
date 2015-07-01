@@ -1,5 +1,5 @@
 
-//Interleaving String
+// Interleaving String
 
 /**
  * @author:wangzq
@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/interleaving-string/
  */
 
-public class Interleaving_String {
+public class Solution {
 
     public boolean isInterleave(String s1, String s2, String s3) {
         int len1 = s1.length();

@@ -1,9 +1,6 @@
 
 // Summary Ranges
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
@@ -11,7 +8,11 @@ import java.util.List;
  * @url:https://leetcode.com/problems/summary-ranges/
  */
 
-public class Summary_Ranges {
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
+
     public List<String> summaryRanges(int[] nums) {
         List<String> list = new ArrayList<String>();
         if (nums == null || nums.length == 0) {

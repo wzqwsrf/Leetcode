@@ -1,5 +1,5 @@
 
-//Dungeon Game
+// Dungeon Game
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/dungeon-game/
  */
 
-public class Dungeon_Game {
+public class Solution {
+
     public int calculateMinimumHP(int[][] dungeon) {
         int m = dungeon.length;
         int n = dungeon[0].length;

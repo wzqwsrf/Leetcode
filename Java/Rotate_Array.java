@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/rotate-array/
  */
 
-public class Rotate_Array {
+public class Solution {
+
     public void rotate(int[] nums, int k) {
         int n = nums.length;
         if (k > n) {

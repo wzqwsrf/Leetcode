@@ -1,5 +1,5 @@
 
-//Find Minimum in Rotated Sorted Array
+// Find Minimum in Rotated Sorted Array
 
 /**
  * @author:wangzq
@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
  */
 
-public class Find_Minimum_in_Rotated_Sorted_Array {
+public class Solution {
+
     public int findMin(int[] num) {
         int len = num.length - 1;
         int low = 0;

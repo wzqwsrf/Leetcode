@@ -1,5 +1,5 @@
 
-// Minimum Path Sum 396ms
+// Minimum Path Sum
 
 /**
  * @author:wangzq
@@ -8,7 +8,7 @@
  * @url:https://leetcode.com/problems/minimum-path-sum/
  */
 
-public class Minimum_Path_Sum {
+public class Solution {
 
     public int minPathSum(int[][] grid) {
         int m = grid.length;

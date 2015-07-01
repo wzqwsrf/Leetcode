@@ -1,9 +1,5 @@
 
-//Word Ladder
-
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.Queue;
+// Word Ladder
 
 /**
  * @author:wangzq
@@ -12,7 +8,11 @@ import java.util.Queue;
  * @url:https://leetcode.com/problems/word-ladder/
  */
 
-public class Word_Ladder {
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Solution {
     public static int ladderLength(String start, String end,
                                    HashSet<String> dict) {
         if (dict == null || dict.isEmpty()) {

@@ -8,7 +8,8 @@
  * @url:https://leetcode.com/problems/rotate-image/
  */
 
-public class Rotate_Image {
+public class Solution {
+
     public void rotate(int[][] matrix) {
         if (matrix == null) {
             return;
