@@ -6,6 +6,7 @@
  * @email:wangzhenqing1008@163.com
  * @date:2015年07月08日18:18:43
  * @url:https://leetcode.com/problems/number-of-digit-one/
+ * 具体参考http://blog.csdn.net/u013027996/article/details/17126977
  */
 
 public class Solution {
