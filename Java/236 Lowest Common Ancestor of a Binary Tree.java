@@ -40,7 +40,6 @@ public class Solution {
                 return true;
             }
             list.remove(list.size() - 1);
-            return false;
         }
         return false;
     }
