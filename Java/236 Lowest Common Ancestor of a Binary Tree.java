@@ -9,11 +9,9 @@
  */
 
 public class Solution {
-    public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         List<TreeNode> list1 = new ArrayList<TreeNode>();
         List<TreeNode> list2 = new ArrayList<TreeNode>();
-        list1.add(root);
-        list2.add(root);
         getPath(root, p, list1);
         getPath(root, q, list2);
         int size1 = list1.size();
@@ -31,24 +29,18 @@ public class Solution {
         return list1.get(k - 1);
     }
 
-    private static boolean getPath(TreeNode root, TreeNode d, List<TreeNode> list) {
+    private boolean getPath(TreeNode root, TreeNode d, List<TreeNode> list) {
         if (root == d) {
+            list.add(root);
             return true;
         }
-        if (root.left != null) {
-            list.add(root.left);
-            if (getPath(root.left, d, list)) {
+        if (root != null) {
+            list.add(root);
+            if (getPath(root.left, d, list) || getPath(root.right, d, list)) {
                 return true;
             }
             list.remove(list.size() - 1);
-
-        }
-        if (root.right != null) {
-            list.add(root.right);
-            if (getPath(root.right, d, list)) {
-                return true;
-            }
-            list.remove(list.size() - 1);
+            return false;
         }
         return false;
     }
