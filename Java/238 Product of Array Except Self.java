@@ -6,6 +6,7 @@
  * @email:wangzhenqing1008@163.com
  * @date:2015-07-16 10:21:18
  * @url:https://leetcode.com/problems/product-of-array-except-self/
+ * 具体参考csdn:http://blog.csdn.net/u013027996/article/details/46907969
  */
 
 public class Solution {
