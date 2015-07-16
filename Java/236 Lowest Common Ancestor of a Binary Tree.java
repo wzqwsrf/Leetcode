@@ -6,6 +6,7 @@
  * @email:wangzhenqing1008@163.com
  * @date:2015-07-13 16:27:56
  * @url:https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+ * 具体参考csdn:http://blog.csdn.net/u013027996/article/details/46865757
  */
 
 public class Solution {
