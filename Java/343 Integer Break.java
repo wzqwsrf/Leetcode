@@ -11,14 +11,14 @@
 //解法1
 public class Solution {
     public int integerBreak(int n) {
-        if(n <= 2){
+        if (n <= 2) {
             return 1;
         }
-        if(n == 3){
+        if (n == 3) {
             return 2;
         }
         int result = 1;
-        while(n > 4){
+        while (n > 4) {
             result *= 3;
             n -= 3;
         }
@@ -29,13 +29,13 @@ public class Solution {
 //解法2
 public class Solution {
     public int integerBreak(int n) {
-        int dp[] = new int[n+1];
+        int dp[] = new int[n + 1];
         dp[n] = dp[1] * dp[n - 1];
         dp[0] = 0;
         dp[1] = 1;
-        for(int i = 2; i < n + 1; i++){
+        for (int i = 2; i < n + 1; i++) {
             dp[i] = 0;
-            for(int j = 1; j <= i / 2; j++){
+            for (int j = 1; j <= i / 2; j++) {
                 dp[i] = Math.max(Math.max(j, dp[j]) * Math.max(i - j, dp[i - j]), dp[i]);
             }
         }

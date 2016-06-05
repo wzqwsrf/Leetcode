@@ -1,6 +1,11 @@
 
 // Intersection of Two Arrays
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
 /**
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
@@ -10,7 +15,7 @@
 
 public class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
-        if(nums1.length == 0 || nums2.length == 0){
+        if (nums1.length == 0 || nums2.length == 0) {
             return new int[]{};
         }
         Arrays.sort(nums1);
@@ -18,12 +23,12 @@ public class Solution {
         Set<Integer> set = new HashSet<Integer>();
         int i = 0;
         int j = 0;
-        while(i < nums1.length && j < nums2.length){
-            if(nums1[i] < nums2[j]){
+        while (i < nums1.length && j < nums2.length) {
+            if (nums1[i] < nums2[j]) {
                 i++;
-            }else if(nums1[i] > nums2[j]){
+            } else if (nums1[i] > nums2[j]) {
                 j++;
-            }else{
+            } else {
                 set.add(nums1[i]);
                 i++;
                 j++;
@@ -32,7 +37,7 @@ public class Solution {
         int nums[] = new int[set.size()];
         i = 0;
         Iterator<Integer> iterator = set.iterator();
-        while(iterator.hasNext()){
+        while (iterator.hasNext()) {
             nums[i] = iterator.next();
             i++;
         }

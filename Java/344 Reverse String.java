@@ -13,7 +13,7 @@ public class Solution {
         char array[] = s.toCharArray();
         int i = 0;
         int j = s.length() - 1;
-        while(i < j){
+        while (i < j) {
             char c = array[i];
             array[i] = array[j];
             array[j] = c;
