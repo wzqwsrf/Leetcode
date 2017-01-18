@@ -17,21 +17,22 @@ public class Solution {
         if (s == null || t == null) {
             return false;
         }
+        int array[] = new int[26];
         int sLen = s.length();
         int tLen = t.length();
         if (sLen != tLen) {
             return false;
         }
-        char sArray[] = s.toCharArray();
-        char tArray[] = t.toCharArray();
-        Arrays.sort(sArray);
-        Arrays.sort(tArray);
-        int k = 0;
-        while (k < sLen) {
-            if (sArray[k] != tArray[k]) {
+        for (int i = 0; i < sLen; i++) {
+            array[s.charAt(i) - 'a']++;
+        }
+        for (int i = 0; i < tLen; i++) {
+            array[t.charAt(i) - 'a']--;
+        }
+        for (int i = 0; i < 26; i++) {
+            if (array[i] != 0) {
                 return false;
             }
-            k++;
         }
         return true;
     }
