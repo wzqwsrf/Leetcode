@@ -5,7 +5,18 @@
  * @author:wangzq
  * @email:wangzhenqing1008@163.com
  * @date:2015年05月28日17:30:35
+ * @update:2017-8-14 23:00:00
  * @url:https://leetcode.com/problems/binary-tree-inorder-traversal/
+ */
+
+/**
+ * Definition for binary tree
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
  */
 
 import java.util.ArrayList;
@@ -23,15 +34,17 @@ public class Solution {
 
     private void inOrder(TreeNode root) {
         Stack<TreeNode> stack = new Stack<TreeNode>();
-        while (root != null || !stack.isEmpty()) {
-            while (root != null) {
-                stack.push(root);
-                root = root.left;
-            }
-            if (!stack.isEmpty()) {
-                root = stack.pop();
-                list.add(root.val);
-                root = root.right;
+        while (root != null) {
+            stack.push(root);
+            root = root.left;
+        }
+        while (!stack.isEmpty()) {
+            TreeNode node = stack.pop();
+            list.add(node.val);
+            TreeNode right = node.right;
+            while (right != null) {
+                stack.push(right);
+                right = right.left;
             }
         }
     }
