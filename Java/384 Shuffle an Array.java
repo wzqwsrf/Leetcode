@@ -29,8 +29,10 @@ class Solution {
      * Returns a random shuffling of the array.
      */
     public int[] shuffle() {
-        int array[] = (int[]) nums.clone();
-        for (int i = 1; i < nums.length; i++) {
+        int len = nums.length;
+        int[] array = new int[len];
+        System.arraycopy(nums, 0, array, 0, len);
+        for (int i = 1; i < len; i++) {
             int j = random.nextInt(i + 1);
             int temp = array[i];
             array[i] = array[j];
