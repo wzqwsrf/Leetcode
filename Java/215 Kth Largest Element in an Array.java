@@ -40,3 +40,52 @@ public class Solution {
         return result;
     }
 }
+
+//use maxHeap to solve the problem
+public class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        int len = nums.length;
+        if (len == 1) {
+            return nums[0];
+        }
+        buildMaxHeap(nums);
+        int i = len - 1;
+        for (; i >= 0; i--) {
+            if (k == 0) {
+                break;
+            }
+            k--;
+            int temp = nums[0];
+            nums[0] = nums[i];
+            nums[i] = temp;
+            maxHeapify(nums, 0, i);
+        }
+        return nums[i + 1];
+    }
+
+    public void buildMaxHeap(int[] nums) {
+        int len = nums.length;
+        int index = len / 2 - 1;
+        for (int i = index; i >= 0; i--) {
+            maxHeapify(nums, i, len);
+        }
+    }
+
+    private void maxHeapify(int[] nums, int index, int len) {
+        int left = 2 * index + 1;
+        int right = 2 * index + 2;
+        int max = index;
+        if (left < len && nums[max] < nums[left]) {
+            max = left;
+        }
+        if (right < len && nums[max] < nums[right]) {
+            max = right;
+        }
+        if (max != index) {
+            int temp = nums[index];
+            nums[index] = nums[max];
+            nums[max] = temp;
+            maxHeapify(nums, max, len);
+        }
+    }
+}
